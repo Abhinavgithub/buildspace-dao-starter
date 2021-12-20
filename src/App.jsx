@@ -186,7 +186,7 @@ useEffect(() => {
        setHasClaimedNFT(false);
        console.error("failed to nft balance", error);
      });
- }, [address]);
+ }, [address, error]);
 
 
 
